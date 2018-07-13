@@ -1,51 +1,253 @@
-<script type="text/javascript">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Galaxo Blogger Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
 
-function hide_float_right() {
 
-    var content = document.getElementById('float_content_right');
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">“Galaxo Blogger Template” Documentation by “ThemeXpose” v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">
+        <center>Galaxo</center></h1>
+		
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 16/12/2014<br>
+					By: soratemplates<br>
+					soratemplate@gmail.com
+										</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+	  <ol class="alpha">
+			<li><a href="#install">Installation</a></li>
+            <li><a href="#social-link">Add Social Links</a></li>
+            <li><a href="#logo">Upload Logo</a></li>
+            <li><a href="#main-menu">Setting up the menu</a></li>
+			
+            <li><a href="#home-layout">Work with home design</a></li>
+           
+            <li><a href="#flicker">Flicker Image</a></li>
+		
+                      <li><a href="#mobile">Enable Mobile Template</a></li>
+            <li><a href="#fullfeed">Enable Full Feed </a></li>
+            <li><a href="#search">Enable Search Preference</a></li>
+			
+     </ol>
+		
+		
+		
+		
+<ol class="content alpha" style="padding:0;">
+<hr>
+			<h3 id="install"><li><strong>Installation</strong> - <a href="#toc">top</a></li></h3>
+			<p> Now you have Galaxo Blogger Template. You Can Follow This Steps To Upload Your Blogger Template To Blogger Platform. First Login to your Blogger DashBoard by Using Your Google Username And Password from <a href=http://www.blogger.com>Here</a>.</p>
+	<p><b>Then follow these steps:  </b></p>
+	
+	 <p>1. On Blogger Dashboard Click Template.</p>
+    <p>2. Click Backup/Restore button (Top Right).</p>
+    <p>3. Click Choose ( Browse..) File button. Find where the “Galaxo-Blogger-Template.xml” file location.</p>
+    <p>4. Then Click Upload.</p>
 
-    var hide = document.getElementById('hide_float_right');
+<b><span class="highlight">Note</b></span>: Before Uploading This Template <b>Mobile Blogger Template</b> Must Enable to make Blogger Customize Work
+	      <p><img src="assets/images/install.png" width="1025" height="526"></p>
+			
+            
+            <hr>
+						<h3 id="social-link">
+			  <li><strong>Add Social Links (footer)</strong> - <a href="#toc">top</a></li></h3>
+			<p>You Can See that Header Right side area have Social Icons Collection. To Edit Social Icon in this theme you can follow this step: </p>
+			 
+    <p>1. On Blogger Dashbord Click Template</p>
+    <p>2. Click Edit HTML</p>
+    <p>3. Scroll down and Find this Code :</p>
+<pre>&lt;div id='footer-social'&gt; 
+&lt;a href=<span style=' color: Maroon;'>'#'</span> target='_blank'&gt; 
+&lt;i <span style=' color: Blue;'>class</span>='fa fa-facebook'&gt; &lt;/i&gt; 
+&lt;span&gt;Facebook&lt;/span&gt; 
+&lt;/a&gt;         
+&lt;a href=<span style=' color: Maroon;'>'#'</span> target='_blank'&gt; 
+&lt;i <span style=' color: Blue;'>class</span>='fa fa-twitter'/&gt; 
+ &lt;span&gt;Twitter&lt;/span&gt; 
+ &lt;/a&gt;         
+ &lt;a href=<span style=' color: Maroon;'>'#'</span> target='_blank'&gt; 
+ &lt;i <span style=' color: Blue;'>class</span>='fa fa-instagram'/&gt; 
+ &lt;span&gt;Instagram&lt;/span&gt; 
+ &lt;/a&gt;         
+ &lt;a href=<span style=' color: Maroon;'>'#'</span> target='_blank'&gt; 
+ &lt;i <span style=' color: Blue;'>class</span>='fa fa-pinterest'/&gt; 
+ &lt;span&gt;Pinterest&lt;/span&gt; 
+ &lt;/a&gt;     
+ &lt;a href=<span style=' color: Maroon;'>'#'</span> target='_blank'&gt; 
+ &lt;i <span style=' color: Blue;'>class</span>='fa fa-tumblr'/&gt; 
+ &lt;span&gt;Tumblr&lt;/span&gt; 
+ &lt;/a&gt; 
+&lt;/div&gt;</pre>
+    <p>4. Change Links or # with yours Social URL link</p>
+	
+	
+			
+            <hr>
+			<h3 id="logo">
+			  <li><strong>Upload Logo</strong>- <a href="#toc">top</a></li></h3>
+			<p>Access your blog <b>Layout </b>&gt; click <b>Edit </b>link on <b>Header </b>widget<br />
+			</p>
+			<div class="separator" style="clear: both; text-align: center;">
+			<img border="0" src="assets/images/logo.png" /></div>
+		  In <b>Configure Header</b> window, input you <strong>Blog Title</strong> and <strong>Blog Description</strong>. If you want to upload your image logo, make sure checked <strong class="highlight">Instead of title and description</strong>, then click <strong>Choose File</strong> and locate your logo file. And click <b>Save </b>button to finish.<br />
+			<div class="separator" style="clear: both; text-align: center;">
+			<img border="0" src="assets/images/logo-2.png" /></div>
+			<br />
+			
+			
+			<hr>
+			<h3 id="main-menu">
+			  <li><strong>Setting up the menu</strong> - <a href="#toc">top</a></li>
+		    </h3>
+		
+<b>To Edit <b>Main Menu</b> in this theme you can follow this step:</b>
+                        </p>
+						 <div class="row">				
+						 <ol>
+						 <li>On Blogger Dashbord Click <strong class="template">Template</strong></li>
+						 <li>Click <strong class="buttonx">Edit HTML</strong></li>
+						 <li>(Top Menu) Scroll down and Find this Code :<br/><br/>
+						<pre> &lt;nav id='menu'&gt; 
+&lt;input type='checkbox'/&gt; 
+&lt;label&gt;&amp;#<span style=' color: Maroon;'>8801</span>;&lt;span&gt;Navigation&lt;/span&gt;&lt;/label&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'/'</span>&gt;Home&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Blog&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a <span style=' color: Blue;'>class</span>='prett' href=<span style=' color: Maroon;'>'#'</span>&gt;Beauty&lt;/a&gt; 
+&lt;ul <span style=' color: Blue;'>class</span>='menus'&gt; 
+ &lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Drop Menu <span style=' color: Maroon;'>1</span>&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Drop Menu <span style=' color: Maroon;'>2</span>&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Drop Menu <span style=' color: Maroon;'>3</span>&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; 
+&lt;/li&gt; 
+&lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Fashion&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a <span style=' color: Blue;'>class</span>='prett' href=<span style=' color: Maroon;'>'#'</span>&gt;MakeUp&lt;/a&gt; 
+&lt;ul <span style=' color: Blue;'>class</span>='menus'&gt; 
+ &lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Drop Menu <span style=' color: Maroon;'>1</span>&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Drop Menu <span style=' color: Maroon;'>2</span>&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Drop Menu <span style=' color: Maroon;'>3</span>&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt; 
+&lt;/li&gt; 
+&lt;li&gt;&lt;a href=<span style=' color: Maroon;'>'#'</span>&gt;Design&lt;/a&gt;&lt;/li&gt; 
+       &lt;/ul&gt; 
+    &lt;/nav&gt;</pre>
+						 </li>
+						 <li>Change # with yours URL link</li>
+						 </ol>	  						 
+      				
+					
+					
+					
+					 <hr>
+					
+			<h3 id="home-layout">
+			  <li><strong>Work with home design</strong> - <a href="#toc">top</a></li></h3>
+			<p>To setup the Breaking news coursel follow below mention steps <p>
+			 
+	  <p>1. Go To Blogger >> Layout</p>
 
-    if (content.style.display == "none")
+<p>2. Then choose the breaking news widget which you want to Customize Then Click On Edit Button.</p>
 
-    {content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_right()">T?t qu?ng cáo [X]</a>'; }
 
-        else { content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_right()">Xem qu?ng cáo...</a>';
+ <p><img src="assets/images/break.jpg" width="966" height="244">
+<p>Then You will See a Popup Window Like Image Given Below. Then Enter your label or category name here. Then Press Save Button.<p>
 
-    }
+<p> <b>How to Setup The slider (style 2) </b><p>
+<p> To Setup <b>Main slider</b> you need to add "Slider" Tag into your Blogger Post.</p>
 
-    }
+<p> <b>Note :</b> only use "Slider" not "slider".Its Case sensitive. </p>
+ 
+<p>Example :</p>
+ <p><img src="assets/images/shortstyle.png" width="900" height="500">
+	  
 
-</script>
+      
+			
+			<hr><h3 id="flicker"><li><strong>Flicker Image</strong></strong> - <a href="#toc">top</a></li></h3>
+			<p>You Can See sidebar Have Flicker Image Widgets.        
+  <p>Follow this Steps To Add Flicker Widgets</p>
+  <p>1. Go To Blogger &gt;&gt; Layout      </p>  
+        <p>2. Now Click On &quot;Add a Gadget&quot; and Add Your Own Widgets</p>
+      <p><img src="assets/images/flicker1.png" width="956" height="468"></p>
+      <p>3. Now Add Your Java Script Here</p>
+      <p><img src="assets/images/flicker2.png" width="952" height="467"></p>
+      
+  <pre>
+&lt;div class=&quot;flickr_plugin&quot;&gt;
+&lt;script src=&quot;http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08&quot; type=&quot;text/javascript&quot;&gt;
+&lt;/script&gt;
+&lt;/div&gt; 
+      </pre>
 
-<style>
+		<p>Replace This<strong> 52617155@N08</strong> With Your Flicker Id</p>
+		<p>You Can Use <a href="http://idgettr.com/">http://idgettr.com/</a> to generate Your Flicker Id</p>
+			
+			
+			<hr>
+			<hr><h3 id="mobile"><li><strong>Enable Mobile Template</strong></strong> - <a href="#toc">top</a></li></h3>
+			<p class="error">After you apply mobile version for this template, <strong>Advance Editor will be disabled</strong>. This is official bug of Blogger. So, please make sure, you used Advance Editor to change all settings you want before do this step.</p>
+			As default, Blogger will use its own template for you blog on mobile. So if you want to use Galaxo template on mobile devices, please enable it first.<br /><br />
+			Access your <b>Template </b>menu and click on <b>Gear </b>button of Mobile template.<br />
+			<img border="0" src="assets/images/custom2.png" />			In <b>Choose mobile template</b> window, check "<strong>No. Show desktop template on mobile devices.</strong>" option, then click <b>Save </b>button.<br />
+	
+			<img border="0" src="assets/images/custom3.png" />
+			
 
-.float-ck { position: fixed; bottom: 0px; z-index: 9000}
+					
+			
+			<hr><h3 id="fullfeed"><li><strong>Enable Full Feed</strong> </strong>- <a href="#toc">top</a></li></h3>
+			Access <b>Settings</b> menu and choose <b>Other</b> settings. Click drop-down list at <b>Allow Blog Feed</b> option, then choose <b>Full</b>. After that, click <b>Save settings</b> button at the top right corner.<br />
+			
+		
+			<img border="0" src="assets/images/feed.png" />
+			<br />
 
-* html .float-ck {position:absolute;bottom:auto;top:expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))) ;}
+			<hr><h3 id="search"><li><strong>Enable Search Preference</strong></strong> - <a href="#toc">top</a></li></h3>
+			To improve your blog SEO, please enable Blogger Search Preferences. 
+			Access your <b>Settings </b>menu, choose <b>Search preferences</b> tab and click <b>Edit </b>link on <i>Meta tags</i> section<br /><br />
+			<img border="0" src="assets/images/search_01.png" /><br />
+			Next, check <b>Yes </b>option, then type your Blog <i>Description </i>into the text field and click <b>Save </b>changes.<br />
+			<div class="separator" style="clear: both; text-align: center;">
+			<img border="0" src="assets/images/search_02.png" /></div>
+			<br />
+	
+<hr>
+<p>&nbsp;</p>
+<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p> 
+		
+				<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
 
-#float_content_right {border: 1px solid #01AEF0;}
-
-#hide_float_right {text-align:right; font-size: 11px;}
-
-#hide_float_right a {background: #01AEF0; padding: 2px 4px; color: #FFF;}
-
-</style>
-
-<div class="float-ck" style="right: 0px" >
-
-<div id="hide_float_right">
-
-<a href="javascript:hide_float_right()">T?t Qu?ng Cáo [X]</a></div>
-
-<div id="float_content_right">
-
-<!-- Start quang cao-->
-
-  <a href="http://laptopdigiworld.blogspot.com/2015/08/dell-cung-ban-tiep-buoc-tuong-lai.html" taget="_blank" ><img src="http://3.bp.blogspot.com/-OGPaxvyK83E/VdRQFOOQw6I/AAAAAAAAAlY/-PIhRD4KyHg/s1600/1408_dell-fac.jpg" width="250" height="200" /></a>
-
-<!-- End quang cao -->
-
-</div>
-
-</div>
+</body></html>
